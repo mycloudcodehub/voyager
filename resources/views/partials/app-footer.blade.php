@@ -6,8 +6,9 @@
             {!! __('voyager::theme.footer_copyright') !!} <a href="http://thecontrolgroup.com" target="_blank">The Control Group</a>
         @endif
         @php $version = Voyager::getVersion(); @endphp
-        @if (!empty($version))
+        <!-- @if (!empty($version))
             - {{ $version }}
-        @endif
+        @endif -->
+        modeffect
     </div>
 </footer>
