@@ -1,5 +1,5 @@
 <footer class="app-footer">
-    <div class="site-footer-right">
+    <div class="site-footer-right" style="display:none">
         @if (rand(1,100) == 100)
             <i class="voyager-rum-1"></i> {{ __('voyager::theme.footer_copyright2') }}
         @else
